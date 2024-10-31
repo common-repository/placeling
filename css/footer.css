@@ -1,0 +1,148 @@
+
+@font-face {
+	font-family: Museo;
+	src: url('fonts/Museo.otf');
+}
+
+@font-face {
+	font-family: MuseoSlab;
+	src: url('fonts/MuseoSlab.otf');
+}
+
+.placeling_highlight_shadow{
+	-moz-box-shadow: 3px 3px 4px #666;
+	-webkit-box-shadow: 3px 3px 4px #666;
+	box-shadow: 3px 3px 4px #666;
+}
+
+.placeling_shadow{
+	-moz-box-shadow: 3px 3px 4px #ccc;
+	-webkit-box-shadow: 3px 3px 4px #ccc;
+	box-shadow: 3px 3px 4px #ccc;
+}
+
+#placeling_add_image{
+    padding:0;
+    border: none;
+    margin:0;
+}
+
+#placeling_footer{
+    min-width: 280px;
+    max-width: 550px;
+	max-height:207px;
+    display: block;
+    margin: 0 auto 5px auto;
+    background-image:url('images/BGTile.png');
+	background-repeat:repeat-x;
+}
+
+.placeling_action_link{
+    text-decoration: none;
+    color: #888 !important;
+    font-family: Museo, Rockwell, Courier-Bold;
+}
+
+#placeling_user_link{    
+    margin: 22px 0 0 10px;    
+}
+
+#placeling_username{
+    color: rgb(210,86,79);
+    font-weight: bold;
+}
+
+
+#placeling_top_footer{
+    position: relative;
+    width: 100%;
+}
+
+#placeling_map{
+    position: relative;
+    margin-top: 3px;
+    top: 3px;
+    left: 0;
+}
+
+#placeling_map_image {
+    max-width: 100%;
+    width: 100%;
+    height: 150px;
+    border: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#placeling_logo{
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100px;
+    z-index: 10;
+    margin-left: 5px;
+}
+		
+#placeling_map_footer{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+	text-align: center;    
+}
+
+#placeling_place_title{
+	margin: 8px 0 0 0;
+    width:100%;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#placeling_contact_info{
+	font-family: Museo, Rockwell, Courier-Bold;
+    line-height: 10px;
+    font-size: 12px;
+}
+
+#placeling_contact_info a{
+	text-decoration: none;
+	color: rgb(210,86,79);
+}
+
+#placeling_place_name{
+	font-size: 16px;
+	color: #888;
+	font-family: MuseoSlab, Rockwell, "Arial Black";
+}
+
+#placeling_place_title a{
+	text-decoration: none;
+}
+
+#placeling_bottom_footer{
+    height: 54px;
+    position: relative;
+    display:block;
+    padding-right: 10px;
+}
+
+
+#placeling_right_footer{
+    min-width: 200px;
+    max-width: 100%;
+    height: 100%;
+    float: right;
+	text-align: right;
+}
+
+#placeling_top_footer{
+    width: 100%;
+    height: 153px;
+}
+
+#placeling_map_container{
+    text-align: center;
+}
+

@@ -1,0 +1,121 @@
+
+
+@font-face {
+    font-family: Museo;
+    src: url('fonts/Museo.otf');
+}
+
+@font-face {
+    font-family: MuseoSlab;
+    src: url('fonts/MuseoSlab.otf');
+}
+
+.waitload{
+	list-style-type: none;
+	text-align: center;
+}
+
+#placeling_popup_main{
+	width:600px;
+	min-height:500px;
+	margin: 0px auto;
+	background-color: whiteSmoke;
+	border-color: #DFDFDF;
+	border-width: 1px;
+	border-style: solid;
+	line-height: 1;
+}
+
+#search_results{
+	min-height:300px;
+}
+
+#search_top {
+	margin: 5px 10px 5px 10px;
+}
+
+#search_top #searchTextField{
+	width:100%;
+    height: 30px;
+    font-size: 18px;
+    font-family: museoslab;
+}
+
+
+#recent_places li{
+    font-family: sans-serif, Arial;
+}
+
+.place_link{
+    font-size: 14pt;
+    font-family: museoSlab;
+    color: #36757C;
+}
+
+.place_data {
+    height: 36px;
+}
+
+.place_image{
+    float: left;
+    height: 36px;
+    width: 36px;
+}
+
+.place_address {
+    font-family: Museo, Rockwell, Courier-Bold;
+    font-size: 14px;
+    color: #888;
+}
+
+.place_option{
+    width:520px;
+    list-style-type:none;
+}
+
+.place_icon{
+    height: 36px;
+}
+
+#submitbutton{
+    border-color: #298cba;
+    font-weight: bold;
+    color: #fff;
+    background: #21759B url(../img/button-grad.png) repeat-x scroll left top;
+    text-shadow: rgba(0,0,0,0.3) 0 -1px 0;
+
+    text-decoration: none;
+    font-size: 12px!important;
+    line-height: 13px;
+    padding: 3px 8px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+}
+
+.place_option{
+	cursor: pointer;
+	padding: 5px 0 5px 0;
+}
+
+.place_option:hover {
+	background: #fff9b4;
+}
+
+.place_option a{
+	text-decoration: none;
+}
+
+#spinwait {
+	width:100%;
+	height:91px;
+	text-align:center;
+	display:none;
+}
+
+#add_place_click {
+    color: #36757c;
+    font-family:  Museo, Rockwell, Courier-Bold;
+}
